@@ -1,4 +1,2 @@
 game_id,white_player,black_player,result,outcome,white_score
 1,Alice,Bob,1-0,White Win,1.0
-2,Carol,Dan,0-1,Black Win,0.0
-3,Eve,Frank,1/2-1/2,Draw,0.5
