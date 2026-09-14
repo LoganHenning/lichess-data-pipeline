@@ -1,0 +1,23 @@
+[Event "rated rapid game"]
+[Site "https://lichess.org/9xBktSBL"]
+[Date "2026.09.10"]
+[Round "-"]
+[White "Dominique61"]
+[Black "MrBlunderhill"]
+[Result "0-1"]
+[GameId "9xBktSBL"]
+[UTCDate "2026.09.10"]
+[UTCTime "12:20:27"]
+[WhiteElo "2036"]
+[BlackElo "2099"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+10"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D05"]
+[Opening "Queen's Pawn Game: Zukertort Variation"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] [%clk 0:15:00] } 1... d5 { [%eval 0.27] [%clk 0:15:00] } 2. Nf3 { [%eval 0.08] [%clk 0:15:00] } 2... Nf6 { [%eval 0.11] [%clk 0:15:08] } 3. Nbd2 { [%eval 0.0] [%clk 0:14:50] } 3... e6 { [%eval 0.01] [%clk 0:14:31] } 4. e3 { [%eval 0.0] [%clk 0:14:55] } 4... c5 { [%eval 0.06] [%clk 0:14:27] } 5. b3 { [%eval 0.08] [%clk 0:14:54] } 5... cxd4 { [%eval 0.04] [%clk 0:14:20] } 6. exd4 { [%eval 0.0] [%clk 0:14:57] } 6... Nc6 { [%eval 0.19] [%clk 0:14:28] } 7. Bb2 { [%eval 0.06] [%clk 0:15:03] } 7... Bd6 { [%eval 0.13] [%clk 0:14:35] } 8. Bd3 { [%eval 0.12] [%clk 0:15:00] } 8... Nb4 { [%eval 0.25] [%clk 0:14:42] } 9. Bb5+ { [%eval 0.2] [%clk 0:15:05] } 9... Bd7 { [%eval 0.18] [%clk 0:14:51] } 10. Be2 { [%eval 0.16] [%clk 0:15:10] } 10... Rc8 { [%eval 0.29] [%clk 0:14:47] } 11. c3 { [%eval -0.01] [%clk 0:15:15] } 11... Nc6 { [%eval 0.03] [%clk 0:14:50] } 12. O-O { [%eval 0.01] [%clk 0:15:13] } 12... O-O { [%eval 0.05] [%clk 0:14:58] } 13. a3 { [%eval -0.04] [%clk 0:15:18] } 13... a6 { [%eval -0.04] [%clk 0:14:22] } 14. c4 { [%eval -0.05] [%clk 0:15:06] } 14... dxc4 { [%eval 0.07] [%clk 0:14:28] } 15. bxc4 { [%eval 0.06] [%clk 0:15:06] } 15... Na5 { [%eval 0.05] [%clk 0:14:26] } 16. Rb1 { [%eval -0.04] [%clk 0:13:49] } 16... Bb8 { [%eval 0.45] [%clk 0:14:18] } 17. Bc3 { [%eval 0.07] [%clk 0:13:44] } 17... b5 { [%eval 0.0] [%clk 0:13:53] } 18. Bb4 { [%eval 0.01] [%clk 0:13:18] } 18... Re8 { [%eval 0.03] [%clk 0:13:55] } 19. cxb5 { [%eval 0.04] [%clk 0:12:22] } 19... Bxb5 { [%eval 0.0] [%clk 0:13:51] } 20. Bxb5 { [%eval 0.01] [%clk 0:12:25] } 20... axb5 { [%eval 0.0] [%clk 0:14:01] } 21. Qe2 { [%eval 0.01] [%clk 0:12:01] } 21... Nc4 { [%eval 0.06] [%clk 0:13:54] } 22. Nxc4 { [%eval 0.0] [%clk 0:11:55] } 22... bxc4 { [%eval 0.0] [%clk 0:14:02] } 23. Bc5 { [%eval -1.1] [%clk 0:11:53] } 23... Qd5 { [%eval 0.0] [%clk 0:13:56] } 24. Rfc1 { [%eval 0.04] [%clk 0:11:38] } 24... Ne4 { [%eval 0.18] [%clk 0:14:05] } 25. Qxc4 { [%eval 0.25] [%clk 0:11:05] } 25... Qf5 { [%eval 0.46] [%clk 0:13:14] } 26. Qe2 { [%eval -3.98] [%clk 0:07:21] } 26... Nc3 { [%eval -3.9] [%clk 0:13:01] } 0-1
+
+
