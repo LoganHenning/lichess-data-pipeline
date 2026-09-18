@@ -1,0 +1,8 @@
+data/games.csv
+data/clean_games.csv
+data/color_summary.csv
+data/outcome_summary.csv
+data/validation_report.json
+
+__pycache__/
+*.pyc
