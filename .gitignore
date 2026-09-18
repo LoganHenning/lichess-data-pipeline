@@ -3,6 +3,7 @@ data/clean_games.csv
 data/color_summary.csv
 data/outcome_summary.csv
 data/validation_report.json
+data/rejected_games.csv
 
 __pycache__/
 *.pyc
