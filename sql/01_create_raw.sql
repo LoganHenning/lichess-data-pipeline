@@ -1,0 +1,32 @@
+CREATE DATABASE IF NOT EXISTS CHESS_ANALYTICS;
+
+CREATE SCHEMA IF NOT EXISTS CHESS_ANALYTICS.RAW;
+
+CREATE TABLE IF NOT EXISTS CHESS_ANALYTICS.RAW.LICHESS_GAMES (
+    game_id VARCHAR,
+    game_date VARCHAR,
+    white_player VARCHAR,
+    black_player VARCHAR,
+    white_rating NUMBER,
+    black_rating NUMBER,
+    result VARCHAR,
+    eco VARCHAR,
+    opening VARCHAR,
+    time_control VARCHAR,
+    move_count NUMBER,
+    my_color VARCHAR,
+    my_rating NUMBER,
+    opponent_rating NUMBER,
+    rating_difference NUMBER,
+    result_for_me VARCHAR,
+    outcome VARCHAR,
+    white_score FLOAT
+);
+
+CREATE FILE FORMAT IF NOT EXISTS CHESS_ANALYTICS.RAW.LICHESS_CSV_FORMAT
+    TYPE = 'CSV'
+    SKIP_HEADER = 1
+    FIELD_OPTIONALLY_ENCLOSED_BY = '"';
+
+CREATE STAGE IF NOT EXISTS CHESS_ANALYTICS.RAW.LICHESS_STAGE
+    FILE_FORMAT = CHESS_ANALYTICS.RAW.LICHESS_CSV_FORMAT;
