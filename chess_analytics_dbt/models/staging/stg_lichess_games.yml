@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: stg_lichess_games
+    description: Cleaned and typed Lichess game data from the Snowflake RAW layer.
+
+    columns:
+      - name: game_id
+        data_tests:
+          - not_null
+          - unique
+
+      - name: game_date
+        data_tests:
+          - not_null
+
+      - name: result
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['1-0', '0-1', '1/2-1/2']
+
+      - name: my_color
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['white', 'black']
+
+      - name: result_for_me
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['win', 'loss', 'draw']
