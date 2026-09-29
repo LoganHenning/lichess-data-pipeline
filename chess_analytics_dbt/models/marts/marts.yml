@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: mart_player_performance
+    description: Overall performance summary for the Lichess player.
+
+    columns:
+      - name: total_games
+        data_tests:
+          - not_null
+
+      - name: wins
+        data_tests:
+          - not_null
+
+      - name: losses
+        data_tests:
+          - not_null
+
+      - name: draws
+        data_tests:
+          - not_null
+
+  - name: mart_performance_by_color
+    description: Performance summary grouped by the player's color.
+
+    columns:
+      - name: my_color
+        data_tests:
+          - not_null
+          - unique
+          - accepted_values:
+              arguments:
+                values: ['white', 'black']
+
+      - name: total_games
+        data_tests:
+          - not_null
